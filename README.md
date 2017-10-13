@@ -1,2 +1,2 @@
 # random
-Random stuff
+Random stuff about infosec.

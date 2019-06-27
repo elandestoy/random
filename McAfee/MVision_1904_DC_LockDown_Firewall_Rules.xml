@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epo:EPOPolicySchema xmlns:epo="mcafee-epo-policy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<EPOPolicyVerInfo vermjr="5" vermin="10" verrel="0" verbld="0"/>
+<EPOPolicySettings name="DC Lockdown Firewall Rules::Settings (F4D3E492-4014-4485-A5C0-752E83B7ED45)" featureid="MVIS_EP_1000" categoryid="FirewallRules" typeid="FirewallRules" param_int="0" param_str="">
+<Section name="FirewallRule_0">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Delivery Optimization"/>
+<Setting name="Guid" value="df5d290a-2b67-4863-a7fb-bc647ac430d6"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Delivery Optimization (TCP-In)"/>
+<Setting name="PortLocal" value="7680"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="dosvc"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_1">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Delivery Optimization"/>
+<Setting name="Guid" value="eda7ef41-6db0-4062-a31a-9b5c77620dbd"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Delivery Optimization (UDP-In)"/>
+<Setting name="PortLocal" value="7680"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="dosvc"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_10">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="c2c404d9-7223-4035-9df1-e63c4afa86d5"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Direcotry - Network Discovery NetBIOS (NB-Datagram-In) (UDP-In)"/>
+<Setting name="PortLocal" value="138"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_11">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="56962506-76e6-4569-abe0-a478b1337528"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (NB-Name-In)"/>
+<Setting name="PortLocal" value="137"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_12">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="40cf533a-25f7-44f7-a394-481588105413"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (Pub-WSD-In)"/>
+<Setting name="PortLocal" value="3702"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="fdrespub"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_13">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="6c2f9a68-1d9b-4a39-96d5-64e055be4d9c"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (SSDP-In)"/>
+<Setting name="PortLocal" value="1900"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="Ssdpsrv"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_14">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Core Networking"/>
+<Setting name="Guid" value="c410cabc-1657-4da1-b347-ac223dffb95c"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Core Networking - (ICMPv6-In)"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="58"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_15">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Core Networking"/>
+<Setting name="Guid" value="e58a4067-b784-43ac-b4ee-6ba21c8b0cbc"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Core Networking - Packet Too Big (ICMPv6-In)"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="58"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_16">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Core Networking"/>
+<Setting name="Guid" value="e6fdc555-4bac-4313-8d6f-59c2d21cacfc"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Core Networking - (ICMPv4-In)"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="1"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_17">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Core Networking"/>
+<Setting name="Guid" value="c2654326-835b-4bac-903d-79838d39b789"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Core Networking - IPv6 (IPv6-In)"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="41"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_18">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="NetBIOS"/>
+<Setting name="Guid" value="8e78ff6a-fc79-40bd-b1ce-57eae6710896"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow inbound RCP service"/>
+<Setting name="PortLocal" value="135"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_19">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="NetBIOS"/>
+<Setting name="Guid" value="71a7cfb6-7f01-406a-9486-8d63e9222f22"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow inbound NetBIOS sessions"/>
+<Setting name="PortLocal" value="139"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_2">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="6213037c-6b5d-42dc-9db4-c3b4da2fc787"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (UPnP-In)"/>
+<Setting name="PortLocal" value="2869"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_20">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="NetBIOS"/>
+<Setting name="Guid" value="d8044cb1-df26-4109-9a94-0bbd369a564f"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow inbound NetBIOS sessions over UDP"/>
+<Setting name="PortLocal" value="139"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_21">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Windows AD authentication"/>
+<Setting name="Guid" value="ee80f804-1e18-4376-9469-c3d787badc1e"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow inbound over SMB over TCP"/>
+<Setting name="PortLocal" value="445"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_22">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Windows AD authentication"/>
+<Setting name="Guid" value="9664f036-5ffb-4f5f-b114-e844ab955b16"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow inbound over SMB over UDP"/>
+<Setting name="PortLocal" value="445"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_23">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Security"/>
+<Setting name="Guid" value="34cfdfe4-416f-47b5-9327-ffde0c08e628"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow Inbound McAfee Agent connectios"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%programfiles%\mcafee\Agent\macmnsvc.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="-1"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_24">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Security"/>
+<Setting name="Guid" value="c6f1761a-ca80-4c84-896c-849d09abe597"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow inbound Remote Desktop Connections (RDP) connections"/>
+<Setting name="PortLocal" value="3389"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value=""/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_25">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Security"/>
+<Setting name="Guid" value="eddf8134-70e0-494d-82f3-8e01e1fe97e5"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Allow Inbound Solarwinds Agent"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%programfiles(x86)%\SolarWinds\Agent\SolarWinds.Agent.Service.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_26">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="2da53461-f9fc-4d21-9415-49e72b0f23ff"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - Network Time Protocol W32Time (NTP-UDP-In)"/>
+<Setting name="PortLocal" value="123"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\System32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="w32time"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_27">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="102f50f0-8acf-4cd5-b51b-2700336d500a"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - DNS Server connections"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%Systemroot%\system32\dns.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="-1"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_28">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="0add730c-0746-4946-83ee-0f141d792bdc"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - DHCP Server In"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="-1"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="DHCPServer"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_29">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="e484cfa6-3576-457e-9b3e-90cc510acde2"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - LSASS (RPC-EPMAP) (TCP-In)"/>
+<Setting name="PortLocal" value="RPC-EPMap"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="rpcss"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_3">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="afdfd9ba-6ce0-4e63-8fd4-a74be673c78f"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (WSD Events-In)"/>
+<Setting name="PortLocal" value="5357"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_30">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="17201556-ede8-4411-bf82-9f5f84e2b5d0"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - LSASS RCP"/>
+<Setting name="PortLocal" value="RPC"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_31">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="306a818d-8fdd-4bb2-ad1b-96bf821a4714"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory Kerberos (TCP-In)"/>
+<Setting name="PortLocal" value="88"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_32">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="ade447ef-5be0-4513-b8ef-59cddf72dcd3"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - Kerberos (UDP-In)"/>
+<Setting name="PortLocal" value="88"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_33">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="f0514014-3b9d-4833-8fc2-025ff0de57d2"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - LDAP (TCP-In)"/>
+<Setting name="PortLocal" value="389"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_34">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="d8c89da9-7f47-41a2-96d7-ec1aa113c120"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - LDAP (UDP-In)"/>
+<Setting name="PortLocal" value="389"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_35">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="c1d02d83-0757-47bd-88d4-15b797720b3d"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory Kerberos Password management (TCP-In)"/>
+<Setting name="PortLocal" value="464"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_36">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="a774a28e-cc7c-41c8-932e-60b4ca5c1379"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory Kerberos Password management (UDP-In)"/>
+<Setting name="PortLocal" value="464"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_37">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="0e81f101-f270-42fc-94c7-21a506580fb1"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - Secure LDAP (TCP-In)"/>
+<Setting name="PortLocal" value="636"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_38">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="44204c8a-5589-4de1-a173-ad75b0b219df"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory Secure Kerberos (UDP-In)"/>
+<Setting name="PortLocal" value="636"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_39">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="794fc0d4-5f60-402a-82be-357e5e4d8219"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Direcotry - LDAP Global Catalog (TCP-In)"/>
+<Setting name="PortLocal" value="3268"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_4">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="3b754cd2-7972-4af1-b751-296da73117d2"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (WSD EventsSecure-In)"/>
+<Setting name="PortLocal" value="5358"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_40">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="5f2613a3-aa11-4a9b-b890-650b6e9abf9e"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Direcotry - Secure LDAP Global Catalog (TCP-In)"/>
+<Setting name="PortLocal" value="3269"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\lsass.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_41">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Active Directory"/>
+<Setting name="Guid" value="b9aa0a2f-483f-458a-b466-660f3441c8f8"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Active Directory - Web Services (TCP-In)"/>
+<Setting name="PortLocal" value="9389"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\ADWS\Microsoft.ActiveDirectory.WebServices.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="adws"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_42">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="DFS"/>
+<Setting name="Guid" value="91f73bce-a3e4-44d4-96a6-3dc35a631982"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="DFS -  Management (DCOM-In)"/>
+<Setting name="PortLocal" value="135"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="RPCSS"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_43">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="DFS"/>
+<Setting name="Guid" value="56766230-7852-45e6-8d77-8f53f394467f"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="DFS - Management (TCP-In)"/>
+<Setting name="PortLocal" value="RPC"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\dfsfrsHost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_44">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="DFS"/>
+<Setting name="Guid" value="d95ffde8-9307-4504-9e7b-6289c58dcf8b"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="DFS - Management (WMI-In)"/>
+<Setting name="PortLocal" value="RPC"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%systemroot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="winmgmt"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_45">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="-1"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="DFS"/>
+<Setting name="Guid" value="faebf907-947c-4457-9c60-45d087c7c4fd"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="DFS - Replication (RPC-In)"/>
+<Setting name="PortLocal" value="RPC"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="1"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\dfsrs.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="Dfsr"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_5">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="ab9bf2ac-762b-4b76-99e2-4d0379e6cf3b"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (WSD-In)"/>
+<Setting name="PortLocal" value="3702"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\dashost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_6">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="1c0099eb-17f0-4da2-a751-b157a60e0e3d"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (WSD-In)"/>
+<Setting name="PortLocal" value="3702"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="fdphost"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_7">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="b855596d-8b38-4a0b-ae57-1be657253dba"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery for Teredo (SSDP-In)"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="0"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="Ssdpsrv"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_8">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value=""/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="ece1de58-182a-4fc1-b683-2f1ed3287b37"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery for Teredo (UPnP-In)"/>
+<Setting name="PortLocal" value=""/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="1"/>
+<Setting name="ProfilePrivate" value="0"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="System"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="6"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value=""/>
+<Setting name="UserOwner" value=""/>
+</Section>
+<Section name="FirewallRule_9">
+<Setting name="Action" value="0"/>
+<Setting name="AddressesLocal" value=""/>
+<Setting name="AddressesRemote" value="LocalSubnet"/>
+<Setting name="AppPackage" value=""/>
+<Setting name="Direction" value="0"/>
+<Setting name="EdgeTraversal" value="0"/>
+<Setting name="ExtraRuleSettings" value=""/>
+<Setting name="Group" value="Network Discovery"/>
+<Setting name="Guid" value="ba50e9b0-1468-4bb6-9b36-ed4e08c03bcf"/>
+<Setting name="LocalPrincipalsAuthorized" value=""/>
+<Setting name="Name" value="Network Discovery (LLMNR-UDP-In)"/>
+<Setting name="PortLocal" value="5355"/>
+<Setting name="PortRemote" value=""/>
+<Setting name="ProfileDomain" value="0"/>
+<Setting name="ProfilePrivate" value="1"/>
+<Setting name="ProfilePublic" value="0"/>
+<Setting name="ProgramPath" value="%SystemRoot%\system32\svchost.exe"/>
+<Setting name="ProtocolCustomized" value="0"/>
+<Setting name="ProtocolNumber" value="17"/>
+<Setting name="ReadonlyRule" value="0"/>
+<Setting name="RuleDisabled" value="0"/>
+<Setting name="ServiceShortName" value="dnscache"/>
+<Setting name="UserOwner" value=""/>
+</Section>
+</EPOPolicySettings>
+<EPOPolicyObject name="DC LockDown Firewall Rules" featureid="MVIS_EP_1000" categoryid="FirewallRules" serverid="EPO-SRV" editflag="0" typeid="FirewallRules">
+<description>DC LockDown Firewall Rules</description><PolicySettings>DC LockDown Firewall Rules::Settings (F4D3E492-4014-4485-A5C0-752E83B7ED45)</PolicySettings>
+</EPOPolicyObject>
+</epo:EPOPolicySchema>
